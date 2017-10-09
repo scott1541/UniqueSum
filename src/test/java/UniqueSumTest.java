@@ -14,7 +14,7 @@ public class UniqueSumTest{
 	@Test
 	public void test2(){
 		UniqueSum sum1 = new UniqueSum();
-		assertEquals(3, sum1.method(1, 2, 3)) ;
+		assertEquals(6, sum1.method(1, 2, 3)) ;
 		
 		
 	}
@@ -29,7 +29,7 @@ public class UniqueSumTest{
 	@Test
 	public void test4(){
 		UniqueSum sum1 = new UniqueSum();
-		assertEquals(0, sum1.method(1, 1, 1)) ;
+		assertEquals(2, sum1.method(1, 1, 1)) ;
 		
 		
 	}
